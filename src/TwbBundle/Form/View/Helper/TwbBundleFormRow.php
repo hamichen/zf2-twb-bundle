@@ -40,7 +40,7 @@ class TwbBundleFormRow extends \Zend\Form\View\Helper\FormRow {
      * @param \Zend\Form\ElementInterface $oElement
      * @return string
      */
-    public function render(\Zend\Form\ElementInterface $oElement) {
+    public function render(\Zend\Form\ElementInterface $oElement, $labelPosition = NULL) {
         $sElementType = $oElement->getAttribute('type');
 
         //Nothing to do for hidden elements which have no messages
