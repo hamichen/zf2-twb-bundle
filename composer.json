@@ -21,19 +21,7 @@
         "twitter/bootstrap": "Twitter bootstrap assets"
     },
     "require": {
-        "php": ">=5.3.2",
-        "zendframework/zend-config": "~2.7",
-        "zendframework/zend-escaper": "~2.7",
-        "zendframework/zend-form": "~2.7",
-        "zendframework/zend-i18n": "~2.7",
-        "zendframework/zend-loader": "~2.7",
-        "zendframework/zend-log": "~2.7",
-        "zendframework/zend-modulemanager": "~2.7",
-        "zendframework/zend-mvc": "~2.7",
-        "zendframework/zend-serializer": "~2.7",
-        "zendframework/zend-servicemanager": "~2.7",
-        "zendframework/zend-stdlib": "~2.7",
-        "zendframework/zend-view": "~2.7"
+        "php": ">=5.3.2"
     },
     "require-dev": {
         "phpunit/phpunit": "4.*",
